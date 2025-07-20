@@ -1,4 +1,3 @@
-# Full-Advanced-Bug-Bounty-Guide
 # 🔥 Ultimate Bug Bounty Hunter's Advanced Toolkit
 
 একটি সম্পূর্ণ Bug Bounty hunting toolkit যা beginners থেকে professionals পর্যন্ত সবার জন্য তৈরি। এতে রয়েছে advanced techniques, automation scripts, এবং comprehensive guide।
@@ -33,7 +32,7 @@ git clone <repository-url>
 cd bug-bounty-toolkit
 
 # Run setup script
-chmod x setup_bug_bounty_toolkit.sh
+
 ./setup_bug_bounty_toolkit.sh
 
 # Load environment
@@ -86,7 +85,7 @@ bug-bounty-recon example.com --passive-only
 ## 🎯 Unique Features
 
 ### 🔍 Advanced Subdomain Discovery
-- **Multi-source passive collection** - 10 different sources
+
 - **Certificate transparency analysis** - SSL certificate chaining
 - **CSP header analysis** - Content Security Policy leaks
 - **JavaScript file parsing** - Hidden endpoint discovery
@@ -184,7 +183,7 @@ bug-bounty-recon example.com --passive-only
 - [ ] Custom tool development
 - [ ] Methodology refinement
 
-### Advanced (18 months)
+
 - [ ] 0-day research
 - [ ] Advanced exploitation techniques
 - [ ] Tool development
@@ -269,7 +268,7 @@ which subfinder httpx nuclei
 #### Permission Errors
 ```bash
 # Fix permissions
-chmod x *.sh
+
 sudo chown -R $USER:$USER ~/tools/
 ```
 
@@ -378,5 +377,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Happy Hunting! 🎯**
 
 *Remember: Bug bounty is about patience, persistence, and continuous learning. Quality over quantity always wins.*
-
 
