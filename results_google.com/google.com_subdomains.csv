@@ -1,0 +1,31 @@
+Subdomain,Status
+admin.google.com,DNS Only
+alerts.google.com,Live
+api.google.com,DNS Only
+archive.google.com,DNS Only
+blog.google.com,Live
+calendar.google.com,Live
+chat.google.com,Live
+docs.google.com,Live
+email.google.com,DNS Only
+help.google.com,Live
+images.google.com,Live
+m.google.com,Live
+mail.google.com,Live
+mobile.google.com,Live
+news.google.com,Live
+ns.google.com,DNS Only
+ns1.google.com,DNS Only
+ns2.google.com,DNS Only
+ns3.google.com,DNS Only
+ns4.google.com,DNS Only
+search.google.com,Live
+shop.google.com,Live
+smtp.google.com,DNS Only
+support.google.com,Live
+upload.google.com,DNS Only
+video.google.com,Live
+vpn.google.com,DNS Only
+web.google.com,DNS Only
+webmaster.google.com,Live
+www.google.com,Live

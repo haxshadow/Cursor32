@@ -1,0 +1,55 @@
+# Simple Subdomain Discovery Results for google.com
+# Generated: 2025-08-14T08:29:21.954590
+# Total Found: 30
+# Live Subdomains: 17
+
+## All Subdomains:
+admin.google.com
+alerts.google.com
+api.google.com
+archive.google.com
+blog.google.com
+calendar.google.com
+chat.google.com
+docs.google.com
+email.google.com
+help.google.com
+images.google.com
+m.google.com
+mail.google.com
+mobile.google.com
+news.google.com
+ns.google.com
+ns1.google.com
+ns2.google.com
+ns3.google.com
+ns4.google.com
+search.google.com
+shop.google.com
+smtp.google.com
+support.google.com
+upload.google.com
+video.google.com
+vpn.google.com
+web.google.com
+webmaster.google.com
+www.google.com
+
+## Live Subdomains:
+alerts.google.com
+blog.google.com
+calendar.google.com
+chat.google.com
+docs.google.com
+help.google.com
+images.google.com
+m.google.com
+mail.google.com
+mobile.google.com
+news.google.com
+search.google.com
+shop.google.com
+support.google.com
+video.google.com
+webmaster.google.com
+www.google.com

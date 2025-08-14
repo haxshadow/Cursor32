@@ -1,380 +1,270 @@
-# 🔥 Ultimate Bug Bounty Hunter's Advanced Toolkit
+# Advanced Subdomain Discovery Tool (Pro Edition)
 
-একটি সম্পূর্ণ Bug Bounty hunting toolkit যা beginners থেকে professionals পর্যন্ত সবার জন্য তৈরি। এতে রয়েছে advanced techniques, automation scripts, এবং comprehensive guide।
+একটি প্রোফেশনাল গ্রেড subdomain enumeration tool যা cutting-edge techniques ব্যবহার করে maximum subdomain discovery করে।
 
-## 📋 Features
+## বৈশিষ্ট্যসমূহ (Features)
 
-### 🎯 Complete Bug Bounty Guide
-- **Step-by-step roadmap** - Beginner থেকে Pro level পর্যন্ত
-- **Advanced techniques** - Unique subdomain enumeration methods
-- **Copy-paste ready scripts** - সব commands এবং payloads ready to use
-- **Professional PDF format** - সুন্দর formatting সহ
+### ✅ মূল বৈশিষ্ট্য
+- **AI-Powered Subdomain Prediction** - মেশিন লার্নিং ব্যবহার করে subdomain predict করে
+- **Multi-threaded DNS Bruteforce** - দ্রুত DNS query করার জন্য threading ব্যবহার
+- **Certificate Transparency Logs** - CT logs থেকে subdomain খুঁজে
+- **Live Subdomain Verification** - HTTP/HTTPS দিয়ে live subdomain check করে
+- **Advanced Error Handling** - robust error handling এবং retry mechanism
+- **Multiple Output Formats** - TXT, CSV, JSON ফরম্যাটে ফলাফল save করে
+- **Visualization Support** - matplotlib দিয়ে গ্রাফ তৈরি করে
 
-### 🤖 Automation Framework
-- **Master reconnaissance script** - Complete end-to-end automation
-- **Passive & Active recon** - Multiple discovery techniques
-- **Real-time notifications** - Telegram/Discord integration
-- **Comprehensive reporting** - Automated report generation
+### 🔧 উন্নত বৈশিষ্ট্য
+- **Rate Limiting** - API rate limits respect করে
+- **Wildcard Detection** - DNS wildcard automatically detect করে
+- **Configuration Support** - YAML config file সাপোর্ট
+- **Logging System** - বিস্তারিত logging এবং monitoring
+- **Resource Management** - proper cleanup এবং resource management
 
-### 🛠️ Advanced Tools Collection
-- **Subdomain enumeration** - Multiple unique techniques
-- **HTTP probing** - Service detection and analysis
-- **Content discovery** - Directory and file fuzzing
-- **Vulnerability scanning** - Nuclei integration
-- **Wordlist optimization** - Target-specific wordlists
+## ইনস্টলেশন (Installation)
 
-## 🚀 Quick Start
-
-### 1. Setup (One-time)
+### ১. Repository Clone করুন
 ```bash
-# Clone repository
 git clone <repository-url>
-cd bug-bounty-toolkit
-
-# Run setup script
-
-./setup_bug_bounty_toolkit.sh
-
-# Load environment
-source ~/.bashrc
-source ~/.bug_bounty_config
+cd advanced-subdomain-finder
 ```
 
-### 2. Generate PDF Guide
+### ২. Python Dependencies Install করুন
 ```bash
-# Create the complete guide in PDF format
-python3 convert_to_pdf.py --enhanced -o Bug_Bounty_Guide.pdf
+# সব dependencies install করুন
+pip install -r requirements.txt
+
+# অথবা minimal installation এর জন্য
+pip install requests dnspython PyYAML
 ```
 
-### 3. Start Bug Bounty Hunting
+### ৩. Optional Dependencies
 ```bash
-# Full reconnaissance on a target
-bug-bounty-recon example.com --full
+# ML features এর জন্য
+pip install scikit-learn numpy
 
-# Quick scan
-bug-bounty-recon example.com --quick
+# Visualization এর জন্য
+pip install matplotlib
 
-# Passive only (stealth mode)
-bug-bounty-recon example.com --passive-only
+# Web scraping এর জন্য
+pip install beautifulsoup4 selenium
+
+# User agent randomization এর জন্য
+pip install fake-useragent
 ```
 
-## 📚 What's Included
+## ব্যবহার (Usage)
 
-### 📖 Documentation
-- **[bug_bounty_advanced_guide.md](bug_bounty_advanced_guide.md)** - Complete Bug Bounty guide
-- **[USAGE.md](USAGE.md)** - Detailed usage instructions
-- **[README.md](README.md)** - This file
-
-### 🔧 Scripts & Tools
-- **[master_recon_automation.sh](master_recon_automation.sh)** - Master automation script
-- **[setup_bug_bounty_toolkit.sh](setup_bug_bounty_toolkit.sh)** - Complete setup script
-- **[convert_to_pdf.py](convert_to_pdf.py)** - PDF generator with professional styling
-
-### 📁 Guide Contents
-1. **Introduction & Mindset** - সঠিক approach এবং mindset
-2. **Essential Setup & Tools** - সব necessary tools এর installation
-3. **Step-by-Step Process** - Complete bug bounty process
-4. **Advanced Subdomain Enumeration** - Unique discovery techniques
-5. **Passive vs Active Recon** - Strategy এবং techniques
-6. **Scope Analysis** - Target selection এবং analysis
-7. **Automation Framework** - Complete automation setup
-8. **Wordlist Optimization** - Custom wordlist generation
-9. **Exploitation Techniques** - Common vulnerability testing
-10. **Bonus Resources** - Learning resources এবং tools
-
-## 🎯 Unique Features
-
-### 🔍 Advanced Subdomain Discovery
-
-- **Certificate transparency analysis** - SSL certificate chaining
-- **CSP header analysis** - Content Security Policy leaks
-- **JavaScript file parsing** - Hidden endpoint discovery
-- **Permutation generation** - Smart wordlist creation
-- **DNS record analysis** - Deep DNS enumeration
-
-### 🤖 Complete Automation
-- **Parallel processing** - Maximum efficiency
-- **Real-time notifications** - Telegram/Discord alerts
-- **Comprehensive logging** - Detailed activity logs
-- **Error handling** - Robust error management
-- **Report generation** - Professional reports
-- **Continuous monitoring** - Long-term surveillance
-
-### 📊 Professional Reporting
-- **Markdown to PDF conversion** - Beautiful formatting
-- **Executive summaries** - High-level overviews
-- **Technical details** - In-depth analysis
-- **Proof of concepts** - Ready-to-use PoCs
-- **Remediation guidance** - Fix recommendations
-
-## 🛠️ Tools Included
-
-### Core Tools
-| Tool | Purpose | Installation |
-|------|---------|-------------|
-| **Subfinder** | Subdomain discovery | `go install` |
-| **Httpx** | HTTP probing | `go install` |
-| **Nuclei** | Vulnerability scanning | `go install` |
-| **Ffuf** | Web fuzzing | `go install` |
-| **DNSx** | DNS toolkit | `go install` |
-
-### Advanced Tools
-| Tool | Purpose | Usage |
-|------|---------|-------|
-| **Assetfinder** | Asset discovery | Passive recon |
-| **Gau** | URL collection | Historical data |
-| **Waybackurls** | Archive URLs | Passive discovery |
-| **Anew** | Duplicate removal | Pipeline processing |
-| **Puredns** | DNS bruteforcing | Active enumeration |
-
-### Custom Scripts
-| Script | Purpose | Features |
-|--------|---------|----------|
-| **master_recon_automation.sh** | Complete automation | 9-phase reconnaissance |
-| **advanced_subdomain_enum.sh** | Subdomain discovery | Unique techniques |
-| **wordlist_optimizer.py** | Wordlist generation | Target-specific |
-| **security_headers.py** | Header analysis | Comprehensive checking |
-
-## 📈 Methodology
-
-### Phase 1: Target Selection
-- Program analysis
-- Scope understanding
-- Priority assignment
-- Strategy planning
-
-### Phase 2: Passive Reconnaissance
-- Subdomain collection
-- Historical data gathering
-- Certificate analysis
-- Social media intelligence
-
-### Phase 3: Active Enumeration
-- DNS bruteforcing
-- Permutation testing
-- Service discovery
-- Technology identification
-
-### Phase 4: Vulnerability Assessment
-- Automated scanning
-- Manual testing
-- Business logic analysis
-- Security misconfiguration
-
-### Phase 5: Exploitation & Reporting
-- Proof of concept development
-- Impact assessment
-- Professional reporting
-- Responsible disclosure
-
-## 🎓 Learning Path
-
-### Beginner (0-6 months)
-- [ ] Tool installation এবং basic usage
-- [ ] Subdomain enumeration techniques
-- [ ] Basic vulnerability discovery
-- [ ] Report writing skills
-- [ ] Community engagement
-
-### Intermediate (6-18 months)
-- [ ] Advanced enumeration techniques
-- [ ] Automation script development
-- [ ] Complex vulnerability chaining
-- [ ] Custom tool development
-- [ ] Methodology refinement
-
-
-- [ ] 0-day research
-- [ ] Advanced exploitation techniques
-- [ ] Tool development
-- [ ] Community contribution
-- [ ] Teaching and mentoring
-
-## 🔧 Configuration
-
-### API Keys Setup
-Edit `~/.bug_bounty_config`:
+### সাধারণ ব্যবহার
 ```bash
-# Telegram notifications
-export TELEGRAM_BOT_TOKEN="your_bot_token"
-export TELEGRAM_CHAT_ID="your_chat_id"
-
-# Discord notifications  
-export DISCORD_WEBHOOK="your_webhook_url"
-
-# Third-party APIs
-export SECURITYTRAILS_API="your_api_key"
-export SHODAN_API="your_api_key"
-export VIRUSTOTAL_API="your_api_key"
+python advanced_subdomain_finder.py example.com
 ```
 
-### Notification Setup
-
-#### Telegram Bot
-1. Start chat with [@BotFather](https://t.me/botfather)
-2. Create new bot: `/newbot`
-3. Get bot token
-4. Get your chat ID: [@userinfobot](https://t.me/userinfobot)
-5. Add to config file
-
-#### Discord Webhook
-1. Go to Server Settings → Integrations
-2. Create new webhook
-3. Copy webhook URL
-4. Add to config file
-
-## 📊 Sample Output
-
-### Reconnaissance Results
-```
-🎯 Bug Bounty Reconnaissance Report
-
-Target: example.com
-Date: 2024-01-15
-Duration: 1,247 seconds
-
-📊 Executive Summary
-- 🔍 Passive Subdomains: 156
-- 🎯 Active Subdomains: 89  
-- ✅ Resolved Subdomains: 234
-- 🌐 Live Web Services: 87
-- 🔌 Open Ports: 156
-- 🚨 Vulnerabilities: 12
-```
-
-### Vulnerability Summary
-```
-🚨 Vulnerabilities Found:
-- 🔴 Critical: 2
-- 🟠 High: 4  
-- 🟡 Medium: 6
-- 🔵 Low: 0
-- ℹ️ Info: 15
-```
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-#### Tools Not Found
+### Advanced Options
 ```bash
-# Check installation
-which subfinder httpx nuclei
+# Custom wordlist দিয়ে
+python advanced_subdomain_finder.py example.com -w wordlist.txt
 
-# Reinstall if needed
-./setup_bug_bounty_toolkit.sh
+# Threads এবং timeout specify করে
+python advanced_subdomain_finder.py example.com -t 200 --timeout 15
+
+# Output directory specify করে
+python advanced_subdomain_finder.py example.com -o results
+
+# Verbose logging enable করে
+python advanced_subdomain_finder.py example.com -v
+
+# Configuration file দিয়ে
+python advanced_subdomain_finder.py example.com -c config.yaml
 ```
 
-#### Permission Errors
+### Command Line Arguments
+```
+positional arguments:
+  domain                Target domain (e.g., example.com)
+
+optional arguments:
+  -h, --help            Help message দেখান
+  -w, --wordlist        Custom wordlist file
+  -c, --config          Configuration file (YAML)
+  -t, --threads         Number of threads (default: 100)
+  --timeout             Timeout in seconds (default: 10)
+  -o, --output          Output directory
+  --no-ai               AI-powered discovery disable করুন
+  -v, --verbose         Verbose logging enable করুন
+```
+
+## Configuration
+
+Tool টি `config.yaml` ফাইল দিয়ে configure করা যায়। প্রথমবার রান করলে একটি default config তৈরি হবে।
+
+### Sample Configuration:
+```yaml
+# DNS resolvers
+resolvers:
+  - 8.8.8.8
+  - 1.1.1.1
+  - 9.9.9.9
+
+# Rate limits (requests per second)
+rate_limits:
+  dns_queries: 50
+  http_requests: 30
+
+# Threading
+threads: 100
+timeout: 10
+
+# Certificate Transparency sources
+ct_sources:
+  - "https://crt.sh/?q=%.{}&output=json"
+
+# Wordlist categories
+wordlists:
+  use_categories:
+    - common
+    - tech
+  custom_words: []
+```
+
+## Output Formats
+
+Tool টি তিনটি ফরম্যাটে ফলাফল save করে:
+
+### ১. Text Format (`domain_subdomains.txt`)
+```
+# Advanced Subdomain Discovery Results for example.com
+# Generated: 2024-01-01T12:00:00
+# Total Found: 25
+# Live Subdomains: 15
+# Vulnerable: 2
+
+## All Subdomains:
+www.example.com
+api.example.com
+mail.example.com
+...
+```
+
+### ২. CSV Format (`domain_subdomains.csv`)
+```csv
+Subdomain,Status,Service,Status Code
+www.example.com,Live,,200
+api.example.com,Live,,200
+old.example.com,DNS Only,,
+```
+
+### ৩. JSON Format (`domain_subdomains.json`)
+```json
+{
+  "domain": "example.com",
+  "scan_info": {
+    "start_time": "2024-01-01T12:00:00",
+    "duration": 120.5,
+    "threads": 100
+  },
+  "statistics": {
+    "dns_queries": 1500,
+    "http_requests": 25,
+    "ai_predictions": 100
+  },
+  "subdomains": {
+    "all": ["www.example.com", "api.example.com"],
+    "live": ["www.example.com"],
+    "vulnerable": []
+  }
+}
+```
+
+## Dependencies
+
+### Core Dependencies (প্রয়োজনীয়)
+- `requests` - HTTP requests এর জন্য
+- `dnspython` - DNS queries এর জন্য
+- `PyYAML` - Configuration file এর জন্য
+
+### Optional Dependencies
+- `scikit-learn`, `numpy` - ML features এর জন্য
+- `matplotlib` - Visualization এর জন্য
+- `beautifulsoup4` - Web scraping এর জন্য
+- `selenium` - Browser automation এর জন্য
+- `fake-useragent` - User agent randomization এর জন্য
+
+## Performance Tips
+
+### ১. Threads Optimization
 ```bash
-# Fix permissions
+# Fast discovery এর জন্য বেশি threads
+python advanced_subdomain_finder.py example.com -t 200
 
-sudo chown -R $USER:$USER ~/tools/
+# Stable discovery এর জন্য কম threads
+python advanced_subdomain_finder.py example.com -t 50
 ```
 
-#### DNS Resolution Issues
+### ২. Rate Limiting
+Configuration file এ rate limits adjust করুন:
+```yaml
+rate_limits:
+  dns_queries: 100  # প্রতি সেকেন্ডে DNS queries
+  http_requests: 50  # প্রতি সেকেন্দে HTTP requests
+```
+
+### ৩. Memory Optimization
+বড় domain এর জন্য output directory আলাদা রাখুন:
 ```bash
-# Update resolvers
-echo "8.8.8.8" > ~/resolvers.txt
-echo "1.1.1.1" >> ~/resolvers.txt
+python advanced_subdomain_finder.py example.com -o /path/to/large/storage
 ```
 
-## 📚 Resources
+## Error Handling
 
-### Official Documentation
-- [ProjectDiscovery Tools](https://projectdiscovery.io/)
-- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
-- [Bug Bounty Methodology](https://github.com/jhaddix/tbhm)
+Tool টিতে comprehensive error handling আছে:
 
-### Learning Platforms
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
-- [HackerOne Hacker101](https://www.hacker101.com/)
-- [Bugcrowd University](https://www.bugcrowd.com/hackers/bugcrowd-university/)
+- **DNS Errors**: Invalid resolvers automatically skip হয়
+- **HTTP Errors**: Retry mechanism দিয়ে handle করে
+- **Timeout Errors**: Configurable timeout settings
+- **Memory Errors**: Resource cleanup automatically হয়
+- **Interrupt Handling**: Ctrl+C দিয়ে gracefully stop করা যায়
 
-### Community
-- [Bug Bounty Forum](https://bugbountyforum.com/)
-- [Reddit /r/bugbounty](https://reddit.com/r/bugbounty)
-- [Discord Communities](https://discord.gg/bugbounty)
+## Troubleshooting
 
-## 🤝 Contributing
+### ১. DNS Resolution সমস্যা
+```bash
+# Valid DNS resolvers check করুন
+nslookup google.com 8.8.8.8
+```
 
-### How to Contribute
-1. Fork the repository
-2. Create feature branch
-3. Make improvements
-4. Test thoroughly  
-5. Submit pull request
+### ২. Permission সমস্যা
+```bash
+# Output directory এর permission check করুন
+chmod 755 output_directory
+```
 
-### Areas for Contribution
-- New automation techniques
-- Additional tool integrations
-- Better reporting formats
-- Documentation improvements
-- Bug fixes and optimizations
+### ৩. Memory সমস্যা
+```bash
+# Threads কমিয়ে run করুন
+python advanced_subdomain_finder.py example.com -t 50
+```
 
-## ⚖️ Legal & Ethics
+### ৪. Dependency সমস্যা
+```bash
+# Missing dependencies install করুন
+pip install --upgrade -r requirements.txt
+```
 
-### Important Notes
-- ⚠️ **Only test on authorized targets**
-- 📋 **Always check scope and rules**
-- 🔒 **Use responsible disclosure**
-- 🕵️ **Respect rate limits**
-- 📝 **Keep detailed logs**
+## Security Notes
 
-### Disclaimer
-This toolkit is for educational and authorized testing purposes only. Users are responsible for complying with all applicable laws and regulations. Unauthorized access to computer systems is illegal.
+- Tool টি শুধুমাত্র ethical hacking এবং authorized penetration testing এর জন্য ব্যবহার করুন
+- Target domain এর উপর permission ছাড়া scan করবেন না
+- Rate limiting respect করুন এবং target server এর উপর অতিরিক্ত load দেবেন না
 
-## 📄 License
+## Contributing
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Bug reports এবং feature requests স্বাগত। Issue open করার আগে existing issues check করুন।
 
-## 🙏 Acknowledgments
+## License
 
-### Tools & Resources
-- ProjectDiscovery team for amazing tools
-- Tom Hudson (tomnomnom) for essential utilities  
-- Bug bounty community for knowledge sharing
-- Open source security tool developers
+এই project MIT License এর অধীনে distributed।
 
-### Special Thanks
-- All bug bounty hunters sharing knowledge
-- Security researchers advancing the field
-- Educational platforms providing resources
-- Community moderators and helpers
+## Support
 
----
-
-## 🎯 Getting Started
-
-### Ready to Hunt?
-
-1. **Setup the toolkit**:
-   ```bash
-   ./setup_bug_bounty_toolkit.sh
-   ```
-
-2. **Generate the guide**:
-   ```bash
-   python3 convert_to_pdf.py --enhanced
-   ```
-
-3. **Start hunting**:
-   ```bash
-   bug-bounty-recon target.com --full
-   ```
-
-4. **Read the guide**: Open the generated PDF and follow the methodology
-
-### Need Help?
-
-- 📖 Check [USAGE.md](USAGE.md) for detailed instructions
-- 🔍 Search existing issues on GitHub  
-- 💬 Ask in bug bounty communities
-- 📧 Contact maintainers for serious issues
-
----
-
-**Happy Hunting! 🎯**
-
-*Remember: Bug bounty is about patience, persistence, and continuous learning. Quality over quantity always wins.*
+সাহায্যের জন্য issue open করুন অথবা discussion section ব্যবহার করুন।
 
