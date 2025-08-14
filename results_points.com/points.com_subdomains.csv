@@ -1,0 +1,11 @@
+Subdomain,Status
+api.points.com,DNS Only
+ftp.points.com,DNS Only
+help.points.com,Live
+ns3.points.com,DNS Only
+ns4.points.com,DNS Only
+ns5.points.com,DNS Only
+smtp.points.com,DNS Only
+staging.points.com,DNS Only
+static.points.com,DNS Only
+www.points.com,DNS Only

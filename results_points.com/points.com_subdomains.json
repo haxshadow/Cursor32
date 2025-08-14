@@ -1,0 +1,40 @@
+{
+  "domain": "points.com",
+  "scan_info": {
+    "start_time": "2025-08-14T08:49:37.505075",
+    "end_time": "2025-08-14T08:50:03.094470",
+    "duration": 25.5893976688385,
+    "threads": 20,
+    "timeout": 5
+  },
+  "statistics": {
+    "dns_queries": 10,
+    "http_requests": 1,
+    "ct_queries": 0,
+    "errors": {
+      "ct": 1
+    },
+    "start_time": 1755161377.5050747
+  },
+  "results": {
+    "total_subdomains": 10,
+    "live_subdomains": 1
+  },
+  "subdomains": {
+    "all": [
+      "api.points.com",
+      "ftp.points.com",
+      "help.points.com",
+      "ns3.points.com",
+      "ns4.points.com",
+      "ns5.points.com",
+      "smtp.points.com",
+      "staging.points.com",
+      "static.points.com",
+      "www.points.com"
+    ],
+    "live": [
+      "help.points.com"
+    ]
+  }
+}

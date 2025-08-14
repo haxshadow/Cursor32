@@ -1,0 +1,19 @@
+# Simple Subdomain Discovery Results for points.com
+# Generated: 2025-08-14T08:50:03.094214
+# Total Found: 10
+# Live Subdomains: 1
+
+## All Subdomains:
+api.points.com
+ftp.points.com
+help.points.com
+ns3.points.com
+ns4.points.com
+ns5.points.com
+smtp.points.com
+staging.points.com
+static.points.com
+www.points.com
+
+## Live Subdomains:
+help.points.com
